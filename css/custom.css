@@ -43,6 +43,10 @@ a, a:hover{
 .secondary-bg{
 	background:#2E2F33;	
 }
+.no-padd{
+	padding-left:0;
+	padding-right:0;	
+}
 /* Default Style Ends */
 /* Header Starts */
 .header-section {
@@ -81,7 +85,7 @@ nav.navbar{
 /* Header Ends */
 /* Content Area Starts */
 .profile-main img {
-    border: solid 1px #e5e5e5;
+    border-right: solid 1px #e5e5e5;
     float: left;
     padding: 30px 20px;
 }
@@ -109,7 +113,7 @@ nav.navbar{
 }
 .profile-data-one ul {
     float: right;
-    margin: 50px 10% 50px 0;
+    margin: 50px 0;
 }
 .profile-data-one ul li h5 a {
     color: #333333;
@@ -129,7 +133,7 @@ nav.navbar{
     padding: 0 20px;
 }
 .content-area{
-	margin-top:60px;
+	margin-top:0;
 	margin-bottom:60px;	
 }
 .profile-data-two ul li a, .profile-data-two ul li span {
@@ -137,19 +141,19 @@ nav.navbar{
     font-weight: 600;
     color: #ffffff;
 }
-.profile-data-two ul li.industry{
+.profile-data-two ul li.industry h5{
 	background:url(../images/industry.png) no-repeat;
 	background-position:left center;	
 }
-.profile-data-two ul li.deck{
+.profile-data-two ul li.deck h5{
 	background:url(../images/product-deck.png) no-repeat;
 	background-position:left center;	
 }
-.profile-data-two ul li.days{
+.profile-data-two ul li.days h5{
 	background:url(../images/calendar.png) no-repeat;
 	background-position:left center;	
 }
-.profile-data-two ul li.team{
+.profile-data-two ul li.team h5{
 	background:url(../images/team.png) no-repeat;
 	background-position:left center;	
 }
@@ -158,18 +162,21 @@ nav.navbar{
     font-style: normal;
 	font-weight:400;
 }
-.profile-data-two ul li {
-    display: inline-block;
-    padding: 15px 60px 15px 60px;
+.profile-info li {
+    list-style: none;
 }
 .profile-data-two ul {
     padding-left: 0;
 	margin-bottom:0;
+	padding-top: 20px;
+    padding-bottom: 20px;
 }
 .profile-data-two ul li h5{
 	color:#ffffff;
 	font-weight:400;	
 	line-height:24px;
+	text-align:left;
+	padding-left:60px;
 }
 .profile-story h2, .profile-data-three h2 {
     font-weight: 300;
@@ -410,13 +417,38 @@ p.mail {
     font-size: 18px;
     font-weight: 600;
 }
-.timeline-item.active p {
+.timeline-item.active .timeline-content {
     background: #f5f5f5;
     border-radius: 5px;
-    padding: 20px;
+    padding: 0;
     color: #333;
+	overflow:hidden;
 }
 .timeline-item.active:before, .timeline-item.active h5 {
     color: #fff;
 }
 /* Storyboard Ends */
+
+.content-area .profile-content{
+	background:#f9f9f9;	
+}
+.timeline-item.active p img {
+    float: left;
+    max-width: 33%;
+    margin-right: 5%;
+}
+.timeline-item.active p em {
+    font-style: normal;
+}
+.timeline-item .time-image {
+    float: left;
+    width: 40%;
+}
+.timeline-item .time-content {
+    float: left;
+    width: 60%;
+    padding: 1.5% 3% 1.5% 5.5%;
+}
+.timeline-item .time-content p{
+	margin-bottom:0;	
+}
