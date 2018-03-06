@@ -1,0 +1,219 @@
+@media screen and (min-width:1280px){
+	
+}
+@media screen and (min-width:960px) and (max-width:1279px){
+.profile-data-two ul li{
+	padding-right:37px;	
+}
+.profile-story, .profile-data-three {
+    padding: 30px 30px 0 30px;
+}
+.product-founder .carousel-caption .col-4 a{
+	width: 30px;
+    height: 30px;
+	font-size:16px;	
+}
+.product-founder h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-founder h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.product-founder .carousel-caption .col-4 a .fab {
+    line-height: 30px;
+}
+}
+@media screen and (max-width:959px){
+button.navbar-toggler {
+    border: none;
+    background: #f9f9f9;
+	outline:none;
+}
+.navbar ul.navbar-nav li a {
+    padding: 10px 20px;
+}
+div#menuNavigation{
+	position:absolute;
+	top:100%;
+	right:0;
+	background:#ffffff;	
+	z-index:100;
+}
+.navbar ul.navbar-nav li a.nav-link{
+	font-size:18px;	
+	font-weight:600;
+}
+.navbar ul.navbar-nav li {
+    margin: 0;
+    border-bottom: solid 1px #e5e5e5;
+}
+.navbar button.btn {
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 18px;
+}
+#menuNavigation ul.navbar-nav {
+    border: solid 1px #e5e5e5;
+}
+.owl-carousel .owl-stage-outer:before, .owl-carousel .owl-stage-outer:after{
+	width:22%	
+}
+.product-founder .carousel-caption .col-4 a{
+	width: 30px;
+    height: 30px;
+	font-size:16px;	
+}
+.product-founder h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-founder h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.product-founder .carousel-caption .col-4 a .fab {
+    line-height: 30px;
+}
+}
+@media screen and (min-width:768px) and (max-width:959px){
+.profile-data-one ul li{
+	padding:0 15px;	
+}
+.profile-data-one ul {
+    margin:35px 5% 35px 0;
+    padding-left: 0;
+}
+.profile-main img {
+    padding: 30px 15px;
+    max-width: 40%;
+}
+.profile-main .profile-primary {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.profile-data-two ul li {
+    padding-left: 65px;
+    width: 49%;
+}
+.profile-data-three{
+	padding-bottom:40px;	
+}
+ul.menu, ul.links {
+    padding-left: 0;
+}
+div#menuNavigation{
+	width:40%;	
+}
+}
+@media screen and (max-width:767px){
+div#menuNavigation{
+	width:100%;	
+}	
+.content-area {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.profile-main img{
+	width:100%;	
+}
+.profile-main .profile-primary {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.profile-data-one ul{
+	padding-left:0;	
+	margin:20px 0;
+}
+.profile-data-one ul li{
+	padding:0 20px;	
+}
+.profile-data-two ul li{
+	width:100%;
+	padding-right:0;	
+}
+.profile-data-two{
+	padding:0;	
+}
+.profile-story, .profile-data-three {
+    padding: 20px;
+}
+.profile-data-three button.btn{
+	padding:20px 10px;	
+}
+.profile-data-three button.btn .far{
+	margin-bottom:0;	
+}
+.timeline-item{
+	padding: 0 0em 1em 1.5em;
+	margin-left:5%;	
+}
+.timeline-item::before{
+	position:relative;
+	left:0;
+	line-height:normal;
+	margin-bottom:10px;	
+}
+.footer-section-2 ul{
+	padding-left:0;	
+}
+.footer-section-2 p{
+	text-align:center;	
+}
+.footer-section-2 .col-12 {
+    margin-bottom: 10px;
+}
+.product-founder .carousel-caption{
+	width:100%;	
+}
+.product-founder h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-founder h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+ol.carousel-indicators {
+    position: relative;
+}
+ol.carousel-indicators li {
+    background-color: #e5e5e5;
+}
+ol.carousel-indicators li.active {
+    background-color: #2E2F33;
+}
+.owl-carousel .owl-stage-outer:before, .owl-carousel .owl-stage-outer:after{
+	display:none;
+}
+}
+@media screen and (max-width:767px) and (orientation:landscape){
+.profile-main img {
+    width: auto;
+}
+.profile-data-one ul {
+    margin-bottom: 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}	
+.profile-data-one ul li h5 a{
+	display:inline-block;	
+}
+.profile-data-one ul li h5 a:before {
+    content: ":";
+    margin-right: 5px;
+    font-weight: 400;
+    color: #999999;
+}
+.profile-content .container{
+	padding-bottom:20px;	
+}
+.profile-data-two ul li{
+	width:49%;	
+}
+}
